@@ -1,0 +1,23 @@
+package interviewjavapgm;
+
+import java.util.Scanner;
+
+public class PrintDetailUsingScanner {
+public static void main(String[] args) {
+	
+	Scanner scan =new Scanner(System.in);
+	
+	System.out.println("Enter your name");
+	String nextLine = scan.nextLine();
+	
+	System.out.println(nextLine);
+	
+	System.out.println("enter age");
+	int nextInt = scan.nextInt();
+	System.out.println(nextInt);
+	
+	System.out.println("Salary");
+	float nextFloat = scan.nextFloat();
+	System.out.println(nextFloat);
+}
+}
